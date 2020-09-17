@@ -1,0 +1,16 @@
+﻿<Page x:Name="Shop_List"
+    x:Class="Lista_zakupow.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Lista_zakupow"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource AppBarBackgroundThemeBrush}" Width="424" Height="450">
+
+    <Grid Background="#FF434242">
+        <Button x:Name="btnNewList" Content="NOWA LISTA ZAKUPÓW" Margin="0,130,0,0" VerticalAlignment="Top" FontSize="24" HorizontalAlignment="Center" Width="403" Click="btnNewList_Click"/>
+        <Button x:Name="btnSavedList" Content="ZOBACZ UTWORZONE" FontSize="24" HorizontalAlignment="Center" Width="403" Click="btnSavedList_Click"/>
+        <Button x:Name="btnExit" Content="ZAMKNIJ" Margin="0,273,0,0" VerticalAlignment="Top" FontSize="24" HorizontalAlignment="Center" Width="403" Click="btnExit_Click" BorderBrush="#FFC22727"/>
+    </Grid>
+</Page>
